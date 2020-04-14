@@ -9,7 +9,7 @@
 
 The [main.cc](main.cc) file contains the main function that initiates a c++ program.
 In this file we call the `addnumbers(int a, int b)` function defined in [add.cc](add.cc).
-This function is forward declared in [main.cc](main.cc) by [add.cc](add.cc).
+This function is forward declared in [main.cc](main.cc) by [add.h](add.h).
 
 ```H
 #ifndef _ADD_H
